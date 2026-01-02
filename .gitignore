@@ -3,3 +3,185 @@
 /dist
 
 .game
+.vercel/
+.LSOverride
+*.pyo
+.moai/scripts/phase*.sh
+.moai/reports/
+*-key.*
+.moai/archived-skills/
+.Spotlight-V100
+*.sqlite3
+ehthumbs.db
+*-secret-key.*
+*.backup
+# Test Coverage
+# ============================================
+.moai/scripts/sync-*.py
+*_backup_*/
+*_secret=*
+coverage.json
+htmlcov/
+# Node.js (for docs/Nextra)
+.moai/temp/
+.github/workflows/*.yml.bak
+*.pem
+*.p12
+.moai/scripts/__pycache__/
+*.log
+.aws/credentials
+.venv/
+# Virtual Environments
+*.egg-info/
+venv/
+.moai/cache/
+.moai/docs/
+!.moai/docs/specs/
+logs/
+.claude/skills/*/*/*token*
+*_key.*
+# Package Distribution
+.claude/skills/*/.env*
+.claude/local/
+!.moai/config/**
+*.sublime-project
+# Mac
+# FIXED: Issue #237 - Replaced overly broad *key* and *secret* patterns
+*.sln
+!.moai/scripts/
+dist/
+*.db
+*.sublime-workspace
+.next/
+__pycache__/
+*.pfx
+env/
+.claude/settings.local.json
+.AppleDouble
+*_secret.*
+*.bak
+.fseventsd
+.claude/skills/*/secrets/
+.moai/work/
+.claude/skills/*/*/*key*
+.#*
+*_token=*
+# .moai local-only directories (user projects only)
+Thumbs.db
+.mypy_cache/
+.moai/scripts/sync-*.sh
+# Logs & Temporary Files
+# Tracked in git: config/, memory/, scripts/, specs/
+!.moai/specs/**
+# Claude Code Local Configuration
+# Backups
+!.moai/config/
+.moai/scripts/*sync*.sh
+secret-key-*
+*.njsproj
+# Old patterns caused false positives for: keyboard-config, hotkey, monkey-patch, etc.
+*.pyc
+*.tmp
+.gitlab-ci.yml.bak
+*.rdb
+.netlify/
+.vscode/
+.idea/
+.uv_cache/
+# Windows
+.DocumentRevisions-V100
+*.suo
+# uv.lock
+.moai/logs/
+# Linux
+# ---------------------------------------------
+# Cloud provider credentials
+*.temp
+# Build Artifacts
+*.swp
+*.tsbuildinfo
+*-secret.*
+# Python Cache & Database
+.tscache/
+.moai/archive/
+!.moai/specs/
+.claude/settings.local.*.json
+# API credentials patterns
+# Private keys and certificates (specific patterns to avoid false positives)
+*.jks
+.ruff_cache/
+!.env.example
+# OS Files
+.aws/config
+*.egg
+.env/
+api-key-*
+# .moai local development scripts (not distributed)
+*.sqlite
+.TemporaryItems
+node_modules/
+.moai/config/config.json
+# Add to .gitignore if needed per project
+*.backup/
+.claude/skills/*/*/*secret*
+*.pyd
+.claude/.env.local*
+.moai/scripts/phase*.py
+# Certificate files
+*.dbm
+.env.*
+.DS_Store
+private-key*
+!.moai/memory/**
+# Legacy config format (migrated to YAML in v0.32.0)
+.moai/error_logs/
+# MoAI Directory Management
+.cursor/
+# Version: 0.28.0
+*-api-key.*
+.moai-backups/
+.env
+.coverage
+.directory
+.pytest_cache/
+out/
+# CI/CD
+*.secret.*
+# Environment Variables & Secrets
+.Trashes
+*-backup/
+.moai/*
+.VolumeIcon.icns
+.moai/analytics/
+# uv.lock is intentionally included for reproducible builds
+build/
+# User-generated content: logs/, cache/, reports/, etc.
+*.sw?
+# IDE & Editors
+*.swo
+[Dd]esktop.ini
+.firebase/
+*.key.*
+!.moai/memory/
+!.moai/scripts/**
+# Purpose: Essential patterns for user projects
+.moai/backups/
+.uv-cache/
+secret-*.*
+# Claude Code Skills Secrets
+*~
+# MoAI-ADK Package Distribution .gitignore
+game/water2/
+.claude/
+.mcp.json
+yolo.sh
+
+# MoAI Project Files (tracked in git)
+!.moai/project/
+!.moai/project/**
+!.moai/specs/
+!.moai/specs/**
+!.moai/config/
+!.moai/config/**
+!.moai/docs/
+!.moai/docs/**
